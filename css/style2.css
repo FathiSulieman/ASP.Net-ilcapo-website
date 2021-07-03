@@ -1,0 +1,42 @@
+html, body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: #ff3838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+
+form button:hover {
+  background:black;
+  color:white;
+}
+
+.btn {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: inherit;
+    color: white;
+    background: #ff3838;
+    outline: none;
+    border: solid 1px black;
+    padding: 5px 15px;
+    font-size: 1.3em;
+    font-weight: 400;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+    cursor: pointer;
+    width: 500px;
+    color: black;
+    transition: all 0.15s ease-in-out;
+}
